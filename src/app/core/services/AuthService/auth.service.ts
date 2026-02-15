@@ -172,10 +172,7 @@ loginFaculty(email: string, password: string) {
   return this.loginWithRole('/login/faculty', email, password);
 }
 loginAdmin(email: string, password: string) {
-  return this.http.post(
-    `${this.baseUrl}/login/admin`,
-    { email, password }
-  );
+  return this.http.post('/login/admin', { email, password });
 }
 loginPool(email: string, password: string) {
   return this.http.post<LoginResponse>(

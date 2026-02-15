@@ -12,5 +12,7 @@ export const environment = {
 
 
 //my final code
+//forward
+//ng serve --host 0.0.0.0 --proxy-config proxy.conf.json --disable-host-check
 
 // ng serve --host 0.0.0.0 --ssl true --ssl-cert ./cert.pem --ssl-key ./key.pem --proxy-config proxy.conf.json

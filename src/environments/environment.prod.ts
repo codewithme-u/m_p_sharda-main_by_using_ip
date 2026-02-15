@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiBase: "https://quizverse.ap-south-1.elasticbeanstalk.com"
+  apiBase: "http://awseb--AWSEB-f3NIM60xbN2Y-1306443165.ap-south-1.elb.amazonaws.com"
 };

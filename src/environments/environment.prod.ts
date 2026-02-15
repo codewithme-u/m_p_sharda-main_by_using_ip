@@ -1,4 +1,4 @@
 export const environment = {
   production: true,
-  apiBase: ''
+apiUrl: "https://quizverse.ap-south-1.elasticbeanstalk.com"
 };
